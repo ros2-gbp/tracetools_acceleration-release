@@ -1,0 +1,13 @@
+Source: ros-jazzy-tracetools-acceleration
+Section: misc
+Priority: optional
+Maintainer: Víctor Mayoral-Vilches <victorma@xilinx.com>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-tracetools-acceleration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ros-workspace
+Description: LTTng tracing provider wrapper for ROS 2 packages using hardware acceleration.
+ Fork of tracetools to trace hardware acceleration in ROS 2.
